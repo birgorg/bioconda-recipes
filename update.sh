@@ -9,5 +9,5 @@ cp bioconda-recipes/build-fail-blacklist build-fail-blacklist
 rm bioconda-recipes
 
 git add scripts/ config.yml bootstrap.py build-fail-blacklist
-git commit -m "Updated: $(data)"
+git commit -m "Update script: I have updated this repo $(data)"
 git push
